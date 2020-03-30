@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajouter_fprive"
+    android:orientation="vertical"
+
+    android:background="@drawable/shape_bg_color">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step1"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:layout_marginBottom="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/shap_edit_radius"
+
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/pnom"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="@string/non_pr_nom"
+            android:inputType="text"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+
+        <EditText
+            android:id="@+id/pemail"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="@string/exemple_gmail_com"
+            android:inputType="text"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Téléphone"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+
+        <EditText
+            android:id="@+id/ptel"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="Numéro "
+            android:inputType="phone"
+            android:textColor="@color/colorBlue"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 2 : Information sur le locale"
+        android:layout_marginTop="3dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:layout_marginBottom="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:background="@drawable/shap_edit_radius"
+
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="30dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text= "Non foyer"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/pnom_foyer"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/shape_radius"
+                android:fontFamily="serif"
+                android:hint="Non foyer"
+                android:inputType="text"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:importantForAutofill="no"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/shap_edit_radius"
+
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Région"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/pregion"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="Région"
+            android:inputType="text"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Adresse"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+
+        <EditText
+            android:id="@+id/padresse"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="Adresse"
+            android:inputType="text"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/pdistance"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="Distance"
+            android:inputType="number"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Nembre de place "
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+        <EditText
+            android:id="@+id/pnb_perso"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint=" Nembre de palce "
+            android:inputType="text"
+            android:textColor="@color/colorBlue"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Type chambre"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/ptype_chambre"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="à 2 ou à 3"
+            android:inputType="text"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Prix"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+
+        <EditText
+            android:id="@+id/pprix"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint="Prix"
+            android:inputType="number"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/shap_edit_radius"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Propriété"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+
+        <EditText
+            android:id="@+id/propriete"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_radius"
+            android:fontFamily="serif"
+            android:hint=" Propriété sur la région "
+            android:inputType="text"
+            android:textColor="@color/colorBlue"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 3 : Selectionner des images"
+        android:layout_marginTop="3dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:layout_marginBottom="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/homm"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btGallery"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_button_gray"
+            android:text="Ajouter images"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/penregistrer"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Eregistrer"
+        android:background="@drawable/shape_button_gray"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+
+    </ScrollView>

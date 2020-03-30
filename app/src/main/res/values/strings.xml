@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sakkani</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="openn">open</string>
+    <string name="closee">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="step1">Step1 : Votre identité</string>
+    <string name="nom">Nom</string>
+    <string name="non_pr_nom">Non Prénom</string>
+    <string name="email">Email</string>
+    <string name="exemple_gmail_com">exemple@gmail.com</string>
+</resources>

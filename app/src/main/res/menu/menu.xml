@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="home" />
+
+            <item android:id="@+id/nav_maison"
+                android:icon="@drawable/homm"
+                android:title="Maison"/>
+
+            <item android:id="@+id/nav_studio"
+                android:icon="@drawable/home"
+                android:title="Studio"/>
+            <item android:id="@+id/nav_Fpublic"
+                android:icon="@drawable/realestate"
+                android:title="Foyer public"/>
+            <item android:id="@+id/nav_Fpriver"
+                android:icon="@drawable/realestate"
+                android:title="Foyer priver" />
+
+    </group>
+
+
+    <item android:title="Offre">
+        <menu>
+            <item android:id="@+id/nav_transport"
+                android:icon="@drawable/car"
+                android:title="Transport"/>
+            <item android:id="@+id/nav_patrimoine"
+                android:icon="@drawable/museum"
+                android:title="Musées"
+                 />
+        </menu>
+    </item>
+
+</menu>

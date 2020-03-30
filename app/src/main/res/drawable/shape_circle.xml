@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:drawable="@drawable/shadow_circle_button"/>
+        <item>
+            <shape>
+                <solid android:color="@android:color/white"/>
+                <corners android:radius="90dp"/>
+            </shape>
+        </item>
+    </layer-list>

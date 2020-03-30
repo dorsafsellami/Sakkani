@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_bg_color"
+    tools:context=".Choix">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/annoncer"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="Annoncer"
+        android:textColor="@color/colorCyan"
+        android:text="Annoncer"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/shape_radius_button"
+        android:layout_marginTop="220dp"
+        app:layout_constraintBottom_toTopOf="@+id/chercher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <Button
+        android:id="@+id/chercher"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_radius_button"
+        android:onClick="Chercher"
+        android:text="Chercher"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorCyan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+</LinearLayout>
